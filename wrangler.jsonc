@@ -2,7 +2,7 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "bitacora",
 	"vars": {
-		"EMDASH_SITE_URL": "https://bitacora.mundosamuelsuiri.qzz.io/"
+		"EMDASH_SITE_URL": "https://bitacora.mundosamuelsuiri.qzz.io"
 		},
 	"main": "./src/worker.ts",
 	"compatibility_date": "2026-02-24",
