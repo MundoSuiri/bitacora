@@ -92,6 +92,7 @@
 		--spacing-xl: var(--spacing-8);
 		--spacing-2xl: var(--spacing-12);
 		--spacing-3xl: var(--spacing-16);
+		--spacing-4xl: 6rem;
 
 		/* Layout */
 		--content-width: 680px; /* article/page body column */
@@ -109,6 +110,7 @@
 		/* Transitions */
 		--transition-fast: 120ms ease;
 		--transition-base: 180ms ease;
+		--transition-slow: 300ms ease;
 
 		/* Avatars */
 		--avatar-size-xs: 18px; /* card byline avatars */
