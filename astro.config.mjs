@@ -12,11 +12,11 @@ export default defineConfig({
 		responsiveStyles: true,
 	},
 	integrations: [
-		react(), // Requerido: la interfaz de administración (admin UI) es una aplicación React
+		react(),
 		emdash({
 			database: d1({ binding: "DB", session: "auto" }),
 			storage: r2({ binding: "MEDIA" }),
-			sandboxRunner: sandbox(), // Integración del entorno aislado
+            // Asegúrate de que sandboxRunner y la importación de sandbox() no existan aquí
 		}),
 	],
 	fonts: [
